@@ -5,6 +5,7 @@ Overview
 This repository contains four C++ projects leveraging OpenCV for computer vision and augmented reality (AR) applications. The implementations include Harris Corner Detection, 3D object projection using chessboard patterns, multi-pattern AR, and image overlay via homography. These projects demonstrate fundamental computer vision techniques, camera calibration, and real-time AR rendering.
 
 Features
+
     HarrisCorner.cpp
         Real-time Harris Corner Detection on video feed.
         Computes gradients, applies Gaussian blur, and highlights corners using adaptive thresholding.
@@ -25,11 +26,13 @@ Features
         Computes homography with findHomography and blends the image using masking.
 
 Technologies Used
+
     OpenCV 4.x (core, imgproc, calib3d modules)
     C++
     Camera calibration (Calibration.yml required).
 
 References
+
     OpenCV Documentation
     Harris Corner : 
       https://docs.opencv.org/3.4/d4/d7d/tutorial_harris_detector.html
